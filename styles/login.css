@@ -49,18 +49,21 @@ main form fieldset .top .btm p a span::after {
     margin: 0 5px;
 }
 main form fieldset .top .btm p a em {text-decoration: underline;}
-footer {}
+footer {
+    padding-top: 15px;
+}
 footer .footer {
     display: flex;
     flex-flow: column wrap;
     align-content: center;
+    
 }
 footer .footer .btm_top {
     display: flex;
     flex-flow: row nowrap;
     
 }
-footer .footer .btm_top p {}
+footer .footer .btm_top p {text-align: center;}
 footer .footer .btm_top p a {}
 footer .footer .btm_top p a::after {
     content:'';
@@ -70,13 +73,20 @@ footer .footer .btm_top p a::after {
     display: inline-block;
     margin: 0 5px;
 }
-footer .footer .btm_top p a:nth-child(3) {display:none;}
+footer .footer .btm_top p:nth-child(3) a::after {display:none;}
 footer .footer .btm_btm {
     display: flex;
     flex-flow: row nowrap;
-    text-align: center;
-    justify-content: space-between;
 }
 footer .footer .btm_btm p {}
 footer .footer .btm_btm p a {}
+footer .footer .btm_btm p a::after {
+    content:'';
+    width:1px;
+    height:10px;
+    background-color: #000;
+    display: inline-block;
+    margin: 0 5px;
+}
+footer .footer .btm_btm p:nth-child(4) a::after {display: none;}
 footer .footer address {}
