@@ -1,0 +1,82 @@
+header, main, footer {
+    width: 784px; margin: 0 auto;
+    background: #fcf3fd;
+}
+/* 여기부터 */
+header {position: relative;}
+header p {text-align: center; padding: 30px 0;}
+header p a {}
+header p a img {}
+header select {right:0; top:0; position: absolute;}
+header select option {}
+main {}
+main form {}
+main form fieldset {}
+main form fieldset .top {display:flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+main form fieldset .top input {
+    padding:7px 10px; border: 1px solid #eee;
+    border-radius: 5px;
+}
+main form fieldset .top input::placeholder {color: #eee; font-size: 0.7rem;}
+main form fieldset .top .login {
+    width: 315px; height: 48px; background: #19ce60;
+    text-align: center; line-height: 48px; color: #fff;
+}
+main form fieldset .top input,
+main form fieldset .top .login {margin-bottom:5px;}
+main form fieldset .top .login span {}
+main form fieldset .top .btm {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000; padding-top: 5px;
+}
+main form fieldset .top .btm .check {}
+main form fieldset .top .btm .still {}
+main form fieldset .top .btm p {}
+main form fieldset .top .btm p a {}
+main form fieldset .top .btm p a span {color:#19ce60; font-weight: 600;}
+main form fieldset .top .btm p a span::after {
+    content:'';
+    width:1px;
+    height:10px;
+    background-color: #000;
+    display: inline-block;
+    margin: 0 5px;
+}
+main form fieldset .top .btm p a em {text-decoration: underline;}
+footer {}
+footer .footer {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+footer .footer .btm_top {
+    display: flex;
+    flex-flow: row nowrap;
+    
+}
+footer .footer .btm_top p {}
+footer .footer .btm_top p a {}
+footer .footer .btm_top p a::after {
+    content:'';
+    width:1px;
+    height:10px;
+    background-color: #000;
+    display: inline-block;
+    margin: 0 5px;
+}
+footer .footer .btm_top p a:nth-child(3) {display:none;}
+footer .footer .btm_btm {
+    display: flex;
+    flex-flow: row nowrap;
+    text-align: center;
+    justify-content: space-between;
+}
+footer .footer .btm_btm p {}
+footer .footer .btm_btm p a {}
+footer .footer address {}
