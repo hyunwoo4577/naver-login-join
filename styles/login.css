@@ -54,8 +54,8 @@ footer {
 }
 footer .footer {
     display: flex;
-    flex-flow: column wrap;
-    align-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
     
 }
 footer .footer .btm_top {
@@ -78,7 +78,9 @@ footer .footer .btm_btm {
     display: flex;
     flex-flow: row nowrap;
 }
-footer .footer .btm_btm p {}
+footer .footer .btm_btm p {
+    margin-top: 45px;
+}
 footer .footer .btm_btm p a {}
 footer .footer .btm_btm p a::after {
     content:'';
@@ -89,4 +91,4 @@ footer .footer .btm_btm p a::after {
     margin: 0 5px;
 }
 footer .footer .btm_btm p:nth-child(4) a::after {display: none;}
-footer .footer address {}
+footer .footer address {margin-top: 15px;}
