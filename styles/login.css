@@ -22,7 +22,7 @@ main form fieldset .top input {
 }
 main form fieldset .top input::placeholder {color: #eee; font-size: 0.7rem;}
 main form fieldset .top .login {
-    width: 315px; height: 48px; background: #19ce60;
+    width: 440px; height: 48px; background: #19ce60;
     text-align: center; line-height: 48px; color: #fff;
 }
 main form fieldset .top input,
@@ -35,12 +35,14 @@ main form fieldset .top .btm {
     padding-bottom: 10px;
     border-bottom: 1px solid #000; padding-top: 5px;
 }
-main form fieldset .top .btm .check {}
-main form fieldset .top .btm .still {}
-main form fieldset .top .btm p {}
-main form fieldset .top .btm p a {}
-main form fieldset .top .btm p a span {color:#19ce60; font-weight: 600;}
-main form fieldset .top .btm p a span::after {
+main form fieldset .top .btm .left {}
+main form fieldset .top .btm .left .check {}
+main form fieldset .top .btm .right {    display: flex;
+    flex-flow: row nowrap;}
+main form fieldset .top .btm .right p {}
+main form fieldset .top .btm .right p a {}
+main form fieldset .top .btm .right p a span {color:#19ce60; font-weight: 600;}
+main form fieldset .top .btm .right p a span::after {
     content:'';
     width:1px;
     height:10px;
@@ -48,7 +50,7 @@ main form fieldset .top .btm p a span::after {
     display: inline-block;
     margin: 0 5px;
 }
-main form fieldset .top .btm p a em {text-decoration: underline;}
+main form fieldset .top .btm .right p a em {text-decoration: underline;}
 footer {
     padding-top: 15px;
 }
