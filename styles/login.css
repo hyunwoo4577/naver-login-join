@@ -1,6 +1,6 @@
+body {background: #f5f6f7;}
 header, main, footer {
     width: 784px; margin: 0 auto;
-    background: #fcf3fd;
 }
 /* 여기부터 */
 header {position: relative;}
@@ -22,8 +22,8 @@ main form fieldset .top input {
 }
 main form fieldset .top input::placeholder {color: #eee; font-size: 0.7rem;}
 main form fieldset .top .login {
-    width: 365px; height: 48px; background: #19ce60;
-    text-align: center; line-height: 48px; color: #fff;
+    width: 415px; height: 60px; background: #19ce60;
+    text-align: center; line-height: 60px; color: #fff;
 }
 main form fieldset .top input,
 main form fieldset .top .login {margin-bottom:5px;}

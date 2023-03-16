@@ -1,3 +1,4 @@
+body {background: #f5f6f7;}
 .box {width:350px; margin:100px auto 0;
     display:flex;
     flex-flow: column wrap;
