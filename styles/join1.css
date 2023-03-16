@@ -1,0 +1,54 @@
+/* --------------------------전체부분---------------------------------- */
+body {background-color:#f5f6f7;}
+.join1 {width:770px; margin:0 auto;}
+.join1 .main {width:460px; margin:0 auto;}
+/* ----------------------언어선택부분-------------------------- */
+.join1 .lang {text-align:right;}
+.join1 .lang form {}
+.join1 .lang form fieldset {}
+.join1 .lang form fieldset select {border:1px solid #333; padding:2px 5px;}
+.join1 .lang form fieldset select option {}
+/* -------------------------메인부분-------------------------- */
+/* -------------------------공통부분------------------- */
+.main form fieldset input {margin-right:5px;}
+/* --------------------------로고---------------------------------- */
+.join1 .main .logo {display:block; text-align:center; padding:40px 0;}
+.join1 .main a img {}
+/* ----------------------------약관안내--------------------------------- */
+.join1 .main form {}
+.join1 .main form fieldset {}
+.join1 .main form fieldset label {}
+.join1 .main form fieldset label span {text-decoration:underline; font-weight:600; line-height:1.5; font-size:0.938rem; letter-spacing:-0.02em;}
+.join1 .main form fieldset dl {}
+.join1 .main form fieldset dl dt {padding:20px 0;}
+.join1 .main form fieldset dl dt:nth-of-type(2) {display:flex; flex-flow:row nowrap; justify-content:space-between; align-items:center;}
+.join1 .main form fieldset dl dt input {}
+.join1 .main form fieldset dl dt span {}
+.join1 .main form fieldset dl dt span,
+.join1 .main form fieldset dl dt span em {font-size:1.125rem;}
+/* -----------------어린이 안내 버튼-------------------- */
+.join1 .main form fieldset dl dt .forchild {display:inline-block; color:#19ce60; border:1px solid#19ce60; background-color:#fff; padding:7px 10px; font-size:0.875rem; letter-spacing:-0.02em;}
+/* --------------------------스크롤 부분-------------------------- */
+.join1 .main form fieldset dl dd .contents {overflow:auto; width:100%; height:90px; background-color:#fff; border:1px solid #aaa; padding:10px;}
+.join1 .main form fieldset dl dd .contents h2 {font-weight:600; margin-bottom:15px;}
+.join1 .main form fieldset dl dd .contents p {font-size:0.875rem; letter-spacing:-0.02em;}
+.join1 .main form fieldset dl dd .contents p:last-child {margin-top:50px;}
+/* -------글자강조--------- */
+.join1 .main form fieldset dl dt span em {color:#19ce60;}
+.join1 .main form fieldset dl dt:nth-of-type(3) span  em {color:#8e8e8e;}
+/* --------------하단 버튼------------------- */
+.join1 .main form fieldset .btn {display:flex; flex-flow:row nowrap; justify-content:space-between; padding:20px 0;}
+.join1 .main form fieldset .btn button {width:49%; padding:20px; color:#fff;}
+.join1 .main form fieldset .btn .cancle {background-color:#19ce60;}
+.join1 .main form fieldset .btn .ok {background-color:#8e8e8e;}
+.join1 .main p {}
+.join1 .main p a {text-decoration:underline;}
+.join1 .main p,
+.join1 .main p a {text-align:center; font-size:0.875rem; letter-spacing:-0.02em;}
+/* ------------------푸터-------------------------- */
+.join1 .footer {width:100%; text-align:center; margin-top:50px;}
+.join1 .footer .top {}
+.join1 .footer .top a {font-size:0.875rem; letter-spacing:-0.02em;}
+.join1 .footer .top a::after {content:''; display:inline-block; width:1px; height:10px; background-color:#333; margin-left:5px;}
+.join1 .footer .top a:last-child::after {display:none;}
+.join1 .footer p {font-size:0.875rem; margin-top:10px; letter-spacing:-0.02em;}
