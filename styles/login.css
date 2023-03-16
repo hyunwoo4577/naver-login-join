@@ -22,7 +22,7 @@ main form fieldset .top input {
 }
 main form fieldset .top input::placeholder {color: #eee; font-size: 0.7rem;}
 main form fieldset .top .login {
-    width: 315px; height: 48px; background: #19ce60;
+    width: 365px; height: 48px; background: #19ce60;
     text-align: center; line-height: 48px; color: #fff;
 }
 main form fieldset .top input,
@@ -35,12 +35,15 @@ main form fieldset .top .btm {
     padding-bottom: 10px;
     border-bottom: 1px solid #000; padding-top: 5px;
 }
-main form fieldset .top .btm .check {}
-main form fieldset .top .btm .still {}
-main form fieldset .top .btm p {}
-main form fieldset .top .btm p a {}
-main form fieldset .top .btm p a span {color:#19ce60; font-weight: 600;}
-main form fieldset .top .btm p a span::after {
+main form fieldset .top .btm .left {}
+main form fieldset .top .btm .left .check {}
+main form fieldset .top .btm .left .still {}
+main form fieldset .top .btm .right {display: flex;
+    flex-flow: row nowrap;}
+main form fieldset .top .btm .right p {}
+main form fieldset .top .btm .right p a {}
+main form fieldset .top .btm .right p a span {color:#19ce60; font-weight: 600;}
+main form fieldset .top .btm .right p a span::after {
     content:'';
     width:1px;
     height:10px;
@@ -48,20 +51,20 @@ main form fieldset .top .btm p a span::after {
     display: inline-block;
     margin: 0 5px;
 }
-main form fieldset .top .btm p a em {text-decoration: underline;}
+main form fieldset .top .btm .right p a em {text-decoration: underline;}
 footer {
     padding-top: 15px;
 }
 footer .footer {
     display: flex;
-    flex-flow: column wrap;
-    align-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
     
 }
 footer .footer .btm_top {
     display: flex;
     flex-flow: row nowrap;
-
+    
 }
 footer .footer .btm_top p {text-align: center;}
 footer .footer .btm_top p a {}
@@ -78,7 +81,9 @@ footer .footer .btm_btm {
     display: flex;
     flex-flow: row nowrap;
 }
-footer .footer .btm_btm p {}
+footer .footer .btm_btm p {
+    margin-top: 45px;
+}
 footer .footer .btm_btm p a {}
 footer .footer .btm_btm p a::after {
     content:'';
@@ -89,4 +94,4 @@ footer .footer .btm_btm p a::after {
     margin: 0 5px;
 }
 footer .footer .btm_btm p:nth-child(4) a::after {display: none;}
-footer .footer address {text-align: center;}
+footer .footer address {margin-top: 15px;}
