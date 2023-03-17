@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keyword" content="">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>네이버 | 회원가입</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/join2.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html"><img src="images/logo.jpg"></a></h1>
+    </header>
+    <main>
+        <form action="#" method="post" id="sign_up">
+            <fieldset>
+                <legend class="skip">회원가입</legend>
+                <dl>
+                    <dt>아이디</dt>
+                    <dd><input type="text" name="user_id" id="user1"><span>@naver.com</span></dd>
+                    <dt>비밀번호</dt>
+                    <dd><input type="text" name="user_pw" id="user"></dd>
+                    <dt>비밀번호 재확인</dt>
+                    <dd><input type="text" name="user_pw_confirm" id="user"></dd>
+                    <dt>이름</dt>
+                    <dd><input type="text" name="user_name" id="user"></dd>
+                    <dt>생년월일</dt>
+                    <div class="birth">
+                        <dd><input type="text" placeholder="년(4자)" name="years"></dd>
+                        <dd>
+                            <select name="month">
+                                <option value="month1">월</option>
+                                <option value="month1">1월</option>
+                                <option value="month2">2월</option>
+                                <option value="month3">3월</option>
+                                <option value="month4">4월</option>
+                                <option value="month5">5월</option>
+                                <option value="month6">6월</option>
+                                <option value="month7">7월</option>
+                                <option value="month8">8월</option>
+                                <option value="month9">9월</option>
+                                <option value="month10">10월</option>
+                                <option value="month11">11월</option>
+                                <option value="month12">12월</option>
+                            </select>
+                        </dd>
+                        <dd><input type="text" placeholder="일" name="days"S></dd>
+                    </div>
+                    <dt>성별</dt>
+                    <dd><select name="gender">
+                        <option>성별</option>
+                        <option>남</option>
+                        <option>여</option>
+                    </select></dd>
+                    <dt>본인 확인 이메일<em>(선택)</em></dt>
+                    <dd><input type="text" placeholder="선택입력" name="email" id="user"></dd>
+                    <dt>휴대전화</dt>
+                    <dd>
+                        <select name="country">
+                            <option>대한민국 +82</option>
+                            <option>홍콩 +852</option>
+                        </select>
+                    </dd>
+                    <div class="phone">    
+                        <input type="text" placeholder="전화번호 입력" name="phonenumber">
+                        <button type="button" class="number">인증번호 받기</button>
+                    </div>
+                </dl>
+                <input type="text" placeholder="인증번호 입력하세요" id="v_code"></dd>
+                <p><button type="submit" class="sign_up">가입하기</button></p>
+            </fieldset>
+            <footer>
+                <a href="#">이용약관</a>
+                <a href="#">개인정보처리방침</a>
+                <a href="#">책임의 한계와 법적고지</a>
+                <a href="#">회원정보 고객센터</a>
+                <p>NAVER Copyright © NAVER Corp. All Rights Reserved.</p>
+            </footer>
+        </form>
+    </main>
+</body>
+</html>
