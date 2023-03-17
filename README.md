@@ -17,4 +17,9 @@
     <h3>이용원</h3>
     <p>join1-html:100%, css:100%</p>
   </li>
+  <li>background-color:#f5f6f7</li>
+  <li>font-color:#fff,#8e8e8e</li>
+  <li>font-weight:600</li>
+  <li>logo color:#19ce60</li>
+  <li>width:460</li>
 </ul>
