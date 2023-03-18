@@ -31,7 +31,7 @@ body {background-color:#f5f6f7;}
 /* --------------------------스크롤 부분-------------------------- */
 .join1 .main form fieldset dl dd .contents {overflow:auto; width:100%; height:90px; background-color:#fff; border:1px solid #aaa; padding:10px;}
 .join1 .main form fieldset dl dd .contents h2 {font-weight:600; margin-bottom:15px;}
-.join1 .main form fieldset dl dd .contents p {font-size:0.875rem; letter-spacing:-0.02em;}
+.join1 .main form fieldset dl dd .contents p {font-size:0.875rem; letter-spacing:-0.02em; line-height:1.3em;}
 .join1 .main form fieldset dl dd .contents p:last-child {margin-top:50px;}
 /* -------글자강조--------- */
 .join1 .main form fieldset dl dt span em {color:#19ce60;}
@@ -42,9 +42,9 @@ body {background-color:#f5f6f7;}
 .join1 .main form fieldset .btn .cancle {background-color:#19ce60;}
 .join1 .main form fieldset .btn .ok {background-color:#8e8e8e;}
 .join1 .main p {}
-.join1 .main p a {text-decoration:underline;}
-.join1 .main p,
-.join1 .main p a {text-align:center; font-size:0.875rem; letter-spacing:-0.02em;}
+.join1 .main .cap a {text-decoration:underline;}
+.join1 .main .cap,
+.join1 .main .cap a {text-align:center; font-size:0.875rem; letter-spacing:-0.02em;}
 /* ------------------푸터-------------------------- */
 .join1 .footer {width:100%; text-align:center; margin-top:50px;}
 .join1 .footer .top {}

@@ -33,7 +33,9 @@
                     </label>
                     <dl>
                         <dt>
-                            <input type="checkbox" value="access" name="sign"><span>네이버 이용약관 동의<em>(필수)</em></span>
+                            <label for="naver">
+                            <input type="checkbox" value="access" name="sign" id="naver"><span>네이버 이용약관 동의<em>(필수)</em></span>
+                            </label>
                         </dt>
                         <dd>
                             <div class="contents content1">
@@ -43,7 +45,9 @@
                             </div>
                         </dd>
                         <dt>
-                            <p><input type="checkbox" value="private" name="sign"><span>개인정보 수집 및 이용에 대한 안내<em>(필수)</em></span></p>
+                            <label for="private">
+                            <p><input type="checkbox" value="private" name="sign" id="private"><span>개인정보 수집 및 이용에 대한 안내<em>(필수)</em></span></p>
+                            </label>
                             <a href="#" class="forchild">어린이용 안내</a>
                         </dt>
                         <dd>
@@ -54,7 +58,9 @@
                             </div>
                         </dd>
                         <dt>
-                            <input type="checkbox" value="locat" name="sign"><span>위치정보 이용약관 동의<em>(선택)</em></span>
+                            <label for="locat">
+                            <input type="checkbox" value="locat" name="sign" id="locat"><span>위치정보 이용약관 동의<em>(선택)</em></span>
+                        </label>
                         </dt>
                         <dd>
                             <div class="contents content3">
@@ -65,12 +71,12 @@
                         </dd>
                     </dl>
                     <div class="btn">
-                        <button type="submit" class="cancle">취소</button>
-                        <button type="submit" class="ok"  onclick="location.href='join2.html'" >확인</button>
+                        <button type="button" class="cancle" onclick="location.href='login.html'">취소</button>
+                        <button type="button" class="ok" onclick="location.href='naver_join2.html'" >확인</button>
                     </div>
                 </fieldset>
             </form>
-            <p>회사, 동아리 등 단체에서 사용할 ID가 필요하세요? <a href="#">단체 회원 가입</a></p>
+            <p class="cap">회사, 동아리 등 단체에서 사용할 ID가 필요하세요? <a href="#">단체 회원 가입</a></p>
         </div>
         <div class="footer">
             <div class="top">
