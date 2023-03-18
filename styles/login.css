@@ -1,10 +1,10 @@
+body {background: #f5f6f7;}
 header, main, footer {
     width: 784px; margin: 0 auto;
-    background: #fcf3fd;
 }
 /* 여기부터 */
 header {position: relative;}
-header p {text-align: center; padding: 30px 0;}
+header p {text-align: center; padding: 30px 0; margin-top: 60px;}
 header p a {}
 header p a img {}
 header select {right:0; top:0; position: absolute;}
@@ -16,17 +16,16 @@ main form fieldset .top {display:flex;
     flex-flow: column wrap;
     align-content: center;
 }
-main form fieldset .top input {
-    padding:7px 10px; border: 1px solid #eee;
-    border-radius: 5px;
+main form fieldset .top > input {
+    padding:7px 20px; border: 1px solid #ddd; height: 60px;
 }
-main form fieldset .top input::placeholder {color: #eee; font-size: 0.7rem;}
+main form fieldset .top input::placeholder {color: #666; font-size: 1.1rem; font-weight: 300;}
 main form fieldset .top .login {
-    width: 440px; height: 48px; background: #19ce60;
-    text-align: center; line-height: 48px; color: #fff;
+    width: 465px; height: 60px; background: #19ce60;
+    text-align: center; line-height: 60px; color: #fff;
 }
 main form fieldset .top input,
-main form fieldset .top .login {margin-bottom:5px;}
+main form fieldset .top .login {margin-bottom: 10px;}
 main form fieldset .top .login span {}
 main form fieldset .top .btm {
     display: flex;
@@ -36,10 +35,22 @@ main form fieldset .top .btm {
     border-bottom: 1px solid #000; padding-top: 5px;
 }
 main form fieldset .top .btm .left {}
-main form fieldset .top .btm .left .check {}
-main form fieldset .top .btm .right {    display: flex;
-    flex-flow: row nowrap;}
-main form fieldset .top .btm .right p {}
+main form fieldset .top .btm .left label {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+main form fieldset .top .btm .left label #check {}
+main form fieldset .top .btm .left label .still {padding-left: 5px;}
+main form fieldset .top .btm .right {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+main form fieldset .top .btm .right p {
+
+}
 main form fieldset .top .btm .right p a {}
 main form fieldset .top .btm .right p a span {color:#19ce60; font-weight: 600;}
 main form fieldset .top .btm .right p a span::after {
@@ -83,7 +94,7 @@ footer .footer .btm_btm {
 footer .footer .btm_btm p {
     margin-top: 45px;
 }
-footer .footer .btm_btm p a {}
+footer .footer .btm_btm p a {font-size: 0.8rem;}
 footer .footer .btm_btm p a::after {
     content:'';
     width:1px;
@@ -93,4 +104,4 @@ footer .footer .btm_btm p a::after {
     margin: 0 5px;
 }
 footer .footer .btm_btm p:nth-child(4) a::after {display: none;}
-footer .footer address {margin-top: 15px;}
+footer .footer address {margin-top: 15px; font-size: 0.8rem;}
